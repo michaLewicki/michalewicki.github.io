@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="icon" href="icon.png" />
+    <title>MichaL · Strona startowa</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="top">
+            <div id="header" onclick="window.open('https://github.com/michaLewicki');">
+                <b>Moje projekty</b> <div id="author">Michał Lewicki</div>
+            </div>
+            <div class="description">Jestem studentem Informatyki na Politechnice Śląskiej w Katowicach.<br />Coraz częściej gdy czegoś potrzebuję, piszę sobie to sam.<br />Co ciekawsze projekty wrzucam tutaj...</div>
+        </div>
+        <div id="body">
+            <div class="table">
+                <!---->
+                <div class="element js">
+                    <img src="1.JPG" class="image" onclick="showOrHideProperties(this.parentElement);" /><strong>Silnik Quizów</strong>
+                    <div class="properties hidden js">
+                        <div class="text">
+                            <strong>Silnik Quizów</strong> - pozwala na przeprowadzanie quizów dla kilku osób/grup w oparciu o własne pytania o różnym poziomie trudności. Uczestnicy wybierają jedną z czterech odpowiedzi (A, B, C, D). Wygrywa grupa, która zdobędzie największą ilość punktów.
+                            <br />
+                            <strong>Język: </strong> <u>JavaScript</u>, HTML, CSS
+                            <center>
+                                <button class="button" onclick="window.open('https://michalewicki.github.io/quizEngine/');">Uruchom aplikację</button>
+                                <button class="button code" onclick="window.open('https://github.com/michaLewicki/quizEngine');">Wyświetl kod źródłowy</button>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+
+            </div>
+        </div>
+        <br /><br />
+              <div class="footer"><span style="position: absolute; bottom: 5px; left: 50%; width: 200px; margin-left: -100px; padding: 5px;">© 2019 Michał Lewicki</span></div>
+    </div>
+</body>
+</html>
